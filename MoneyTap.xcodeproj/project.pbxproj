@@ -8,22 +8,62 @@
 
 /* Begin PBXBuildFile section */
 		51BE7C1E214CFD750098E8AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BE7C1D214CFD750098E8AB /* AppDelegate.swift */; };
-		51BE7C20214CFD750098E8AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BE7C1F214CFD750098E8AB /* ViewController.swift */; };
 		51BE7C23214CFD750098E8AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BE7C21214CFD750098E8AB /* Main.storyboard */; };
 		51BE7C26214CFD750098E8AB /* MoneyTap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51BE7C24214CFD750098E8AB /* MoneyTap.xcdatamodeld */; };
 		51BE7C28214CFD770098E8AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51BE7C27214CFD770098E8AB /* Assets.xcassets */; };
 		51BE7C2B214CFD770098E8AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BE7C29214CFD770098E8AB /* LaunchScreen.storyboard */; };
+		51BE7C37214CFE3F0098E8AB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BE7C34214CFE3E0098E8AB /* TableViewCell.swift */; };
+		51BE7C38214CFE3F0098E8AB /* WikipediaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BE7C35214CFE3E0098E8AB /* WikipediaController.swift */; };
+		51BE7C39214CFE3F0098E8AB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BE7C36214CFE3E0098E8AB /* TableViewController.swift */; };
+		51BE7C4D214D02210098E8AB /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BE7C3D214D02200098E8AB /* FileManager.swift */; };
+		51BE7C4E214D02210098E8AB /* CloudDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BE7C3E214D02200098E8AB /* CloudDocument.swift */; };
+		51BE7C4F214D02210098E8AB /* JsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BE7C3F214D02200098E8AB /* JsonParser.swift */; };
+		51BE7C50214D02210098E8AB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BE7C40214D02200098E8AB /* NetworkManager.swift */; };
+		51BE7C51214D02210098E8AB /* ResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BE7C41214D02200098E8AB /* ResponseData.swift */; };
+		51BE7C52214D02210098E8AB /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BE7C42214D02200098E8AB /* CacheManager.swift */; };
+		51BE7C53214D02210098E8AB /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BE7C43214D02200098E8AB /* Reachability.swift */; };
+		51BE7C54214D02210098E8AB /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BE7C44214D02210098E8AB /* UIColor+Extension.swift */; };
+		51BE7C55214D02210098E8AB /* Backgroundable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BE7C45214D02210098E8AB /* Backgroundable.swift */; };
+		51BE7C56214D02210098E8AB /* ResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BE7C46214D02210098E8AB /* ResponseError.swift */; };
+		51BE7C57214D02210098E8AB /* Alamofire+DataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BE7C47214D02210098E8AB /* Alamofire+DataRequest.swift */; };
+		51BE7C58214D02210098E8AB /* JSWebBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BE7C48214D02210098E8AB /* JSWebBridge.swift */; };
+		51BE7C59214D02210098E8AB /* NetworkConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BE7C49214D02210098E8AB /* NetworkConstant.swift */; };
+		51BE7C5A214D02210098E8AB /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BE7C4A214D02210098E8AB /* UIImageView+Extension.swift */; };
+		51BE7C5B214D02210098E8AB /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BE7C4B214D02210098E8AB /* GCD.swift */; };
+		51BE7C5C214D02210098E8AB /* CacheDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BE7C4C214D02210098E8AB /* CacheDownloader.swift */; };
+		FFEC8614E4DDD155CE69E981 /* Pods_MoneyTap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8124629BB99EF43972DFB6 /* Pods_MoneyTap.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E8124629BB99EF43972DFB6 /* Pods_MoneyTap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyTap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E8CF70FDB0EBACC0F166302 /* Pods-MoneyTap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyTap.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoneyTap/Pods-MoneyTap.release.xcconfig"; sourceTree = "<group>"; };
 		51BE7C1A214CFD750098E8AB /* MoneyTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51BE7C1D214CFD750098E8AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		51BE7C1F214CFD750098E8AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		51BE7C22214CFD750098E8AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51BE7C25214CFD750098E8AB /* MoneyTap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoneyTap.xcdatamodel; sourceTree = "<group>"; };
 		51BE7C27214CFD770098E8AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51BE7C2A214CFD770098E8AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51BE7C2C214CFD770098E8AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51BE7C34214CFE3E0098E8AB /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		51BE7C35214CFE3E0098E8AB /* WikipediaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaController.swift; sourceTree = "<group>"; };
+		51BE7C36214CFE3E0098E8AB /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		51BE7C3D214D02200098E8AB /* FileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		51BE7C3E214D02200098E8AB /* CloudDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudDocument.swift; sourceTree = "<group>"; };
+		51BE7C3F214D02200098E8AB /* JsonParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonParser.swift; sourceTree = "<group>"; };
+		51BE7C40214D02200098E8AB /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		51BE7C41214D02200098E8AB /* ResponseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseData.swift; sourceTree = "<group>"; };
+		51BE7C42214D02200098E8AB /* CacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		51BE7C43214D02200098E8AB /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		51BE7C44214D02210098E8AB /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		51BE7C45214D02210098E8AB /* Backgroundable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Backgroundable.swift; sourceTree = "<group>"; };
+		51BE7C46214D02210098E8AB /* ResponseError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseError.swift; sourceTree = "<group>"; };
+		51BE7C47214D02210098E8AB /* Alamofire+DataRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Alamofire+DataRequest.swift"; sourceTree = "<group>"; };
+		51BE7C48214D02210098E8AB /* JSWebBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSWebBridge.swift; sourceTree = "<group>"; };
+		51BE7C49214D02210098E8AB /* NetworkConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConstant.swift; sourceTree = "<group>"; };
+		51BE7C4A214D02210098E8AB /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		51BE7C4B214D02210098E8AB /* GCD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCD.swift; sourceTree = "<group>"; };
+		51BE7C4C214D02210098E8AB /* CacheDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheDownloader.swift; sourceTree = "<group>"; };
+		52C1DEC189271B40CA355A38 /* Pods-MoneyTap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyTap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoneyTap/Pods-MoneyTap.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFEC8614E4DDD155CE69E981 /* Pods_MoneyTap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +83,8 @@
 			children = (
 				51BE7C1C214CFD750098E8AB /* MoneyTap */,
 				51BE7C1B214CFD750098E8AB /* Products */,
+				68936145952F2015AEB969A6 /* Pods */,
+				658324441E75D5E805E2E551 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,7 +100,10 @@
 			isa = PBXGroup;
 			children = (
 				51BE7C1D214CFD750098E8AB /* AppDelegate.swift */,
-				51BE7C1F214CFD750098E8AB /* ViewController.swift */,
+				51BE7C34214CFE3E0098E8AB /* TableViewCell.swift */,
+				51BE7C36214CFE3E0098E8AB /* TableViewController.swift */,
+				51BE7C35214CFE3E0098E8AB /* WikipediaController.swift */,
+				51BE7C3A214D019F0098E8AB /* Utilities */,
 				51BE7C21214CFD750098E8AB /* Main.storyboard */,
 				51BE7C27214CFD770098E8AB /* Assets.xcassets */,
 				51BE7C29214CFD770098E8AB /* LaunchScreen.storyboard */,
@@ -67,6 +113,46 @@
 			path = MoneyTap;
 			sourceTree = "<group>";
 		};
+		51BE7C3A214D019F0098E8AB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				51BE7C47214D02210098E8AB /* Alamofire+DataRequest.swift */,
+				51BE7C45214D02210098E8AB /* Backgroundable.swift */,
+				51BE7C4C214D02210098E8AB /* CacheDownloader.swift */,
+				51BE7C42214D02200098E8AB /* CacheManager.swift */,
+				51BE7C3E214D02200098E8AB /* CloudDocument.swift */,
+				51BE7C3D214D02200098E8AB /* FileManager.swift */,
+				51BE7C4B214D02210098E8AB /* GCD.swift */,
+				51BE7C3F214D02200098E8AB /* JsonParser.swift */,
+				51BE7C48214D02210098E8AB /* JSWebBridge.swift */,
+				51BE7C49214D02210098E8AB /* NetworkConstant.swift */,
+				51BE7C40214D02200098E8AB /* NetworkManager.swift */,
+				51BE7C43214D02200098E8AB /* Reachability.swift */,
+				51BE7C41214D02200098E8AB /* ResponseData.swift */,
+				51BE7C46214D02210098E8AB /* ResponseError.swift */,
+				51BE7C44214D02210098E8AB /* UIColor+Extension.swift */,
+				51BE7C4A214D02210098E8AB /* UIImageView+Extension.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		658324441E75D5E805E2E551 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E8124629BB99EF43972DFB6 /* Pods_MoneyTap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68936145952F2015AEB969A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52C1DEC189271B40CA355A38 /* Pods-MoneyTap.debug.xcconfig */,
+				0E8CF70FDB0EBACC0F166302 /* Pods-MoneyTap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51BE7C2F214CFD770098E8AB /* Build configuration list for PBXNativeTarget "MoneyTap" */;
 			buildPhases = (
+				FBF25EBFE5D9EA4C347D5931 /* [CP] Check Pods Manifest.lock */,
 				51BE7C16214CFD750098E8AB /* Sources */,
 				51BE7C17214CFD750098E8AB /* Frameworks */,
 				51BE7C18214CFD750098E8AB /* Resources */,
+				6F7B099BC31D4DADD8C11E48 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +221,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6F7B099BC31D4DADD8C11E48 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MoneyTap/Pods-MoneyTap-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoneyTap/Pods-MoneyTap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBF25EBFE5D9EA4C347D5931 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoneyTap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		51BE7C16214CFD750098E8AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51BE7C20214CFD750098E8AB /* ViewController.swift in Sources */,
+				51BE7C50214D02210098E8AB /* NetworkManager.swift in Sources */,
+				51BE7C37214CFE3F0098E8AB /* TableViewCell.swift in Sources */,
+				51BE7C53214D02210098E8AB /* Reachability.swift in Sources */,
+				51BE7C51214D02210098E8AB /* ResponseData.swift in Sources */,
+				51BE7C57214D02210098E8AB /* Alamofire+DataRequest.swift in Sources */,
+				51BE7C4E214D02210098E8AB /* CloudDocument.swift in Sources */,
+				51BE7C4F214D02210098E8AB /* JsonParser.swift in Sources */,
 				51BE7C26214CFD750098E8AB /* MoneyTap.xcdatamodeld in Sources */,
+				51BE7C52214D02210098E8AB /* CacheManager.swift in Sources */,
+				51BE7C58214D02210098E8AB /* JSWebBridge.swift in Sources */,
+				51BE7C5B214D02210098E8AB /* GCD.swift in Sources */,
 				51BE7C1E214CFD750098E8AB /* AppDelegate.swift in Sources */,
+				51BE7C4D214D02210098E8AB /* FileManager.swift in Sources */,
+				51BE7C54214D02210098E8AB /* UIColor+Extension.swift in Sources */,
+				51BE7C39214CFE3F0098E8AB /* TableViewController.swift in Sources */,
+				51BE7C56214D02210098E8AB /* ResponseError.swift in Sources */,
+				51BE7C38214CFE3F0098E8AB /* WikipediaController.swift in Sources */,
+				51BE7C5A214D02210098E8AB /* UIImageView+Extension.swift in Sources */,
+				51BE7C5C214D02210098E8AB /* CacheDownloader.swift in Sources */,
+				51BE7C59214D02210098E8AB /* NetworkConstant.swift in Sources */,
+				51BE7C55214D02210098E8AB /* Backgroundable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +427,7 @@
 		};
 		51BE7C30214CFD770098E8AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52C1DEC189271B40CA355A38 /* Pods-MoneyTap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +445,7 @@
 		};
 		51BE7C31214CFD770098E8AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E8CF70FDB0EBACC0F166302 /* Pods-MoneyTap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

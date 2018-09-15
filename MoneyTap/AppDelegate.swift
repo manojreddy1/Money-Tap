@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  MoneyTap
 //
-//  Created by EHiOSDev2 on 15/09/18.
-//  Copyright © 2018 EHiOSDev2. All rights reserved.
+//  Created by Manoj on 15/09/18.
+//  Copyright © 2018 Vaayoo. All rights reserved.
 //
 
 import UIKit
@@ -15,7 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool
+    {
+        NetworkManager.configureManager()
+
         // Override point for customization after application launch.
         return true
     }
