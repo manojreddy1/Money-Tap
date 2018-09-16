@@ -53,7 +53,7 @@ class WikipediaController: UIViewController,UIWebViewDelegate,WKNavigationDelega
     }
     
     @objc func refreshWebView(sender: UIRefreshControl) {
-        print("refersh")
+        //print("refersh")
         //
         sender.endRefreshing()
     }

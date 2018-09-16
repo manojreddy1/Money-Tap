@@ -103,7 +103,7 @@ class TableViewController: UITableViewController,UISearchResultsUpdating
             NetworkManager.defaultSessionManager.request(request, method: .post, parameters: parameters, encoding: URLEncoding.methodDependent).validate().generateResponseSerialization(completion:
                 {
                     (Response) in
-                    print(Response.JSON as AnyObject)
+                    //print(Response.JSON as AnyObject)
                     if let json = Response.JSON as? [String : Any]
                     {
                         
